@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Pico y placa</string>
+    <string name="tvpico">Pico y placa hoy</string>
+    <string name="textView62">Seleccione su numero de placa</string>
+    <string name="pico">Consultar</string>
+    <string name="tv_resultado"></string>
+    <string name="tv_pico">Su proximo dia de placa es:</string>
+    <string name="tv_placa">placa</string>
+    <string name="btFinal">Finalizar</string>
+    <string name="btAcerca">Acerca de</string>
+</resources>

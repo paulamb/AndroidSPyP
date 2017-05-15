@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_pico"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/picoplaca"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.umariana.pico.Pico">
+
+
+    <TextView
+        android:id="@+id/tv_resultado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/pico"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="60dp"
+        android:background="@android:color/background_dark"
+        android:fontFamily="serif"
+        android:textAppearance="@style/TextAppearance.AppCompat.Button"
+        android:textColor="@android:color/background_light"
+        android:textColorLink="@android:color/background_light"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/tv_pico"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/tv_resultado"
+        android:layout_below="@+id/tv_resultado"
+        android:layout_marginTop="47dp"
+        android:background="@android:color/background_dark"
+        android:textAppearance="@style/TextAppearance.AppCompat.Button"
+        android:textColor="@android:color/background_light"
+        android:textColorLink="@android:color/background_light"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/tv_placa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_pico"
+        android:layout_marginTop="39dp"
+        android:layout_toEndOf="@+id/tv_resultado"
+        android:background="@android:color/background_dark"
+        android:textAppearance="@style/TextAppearance.AppCompat.Button"
+        android:textColor="@android:color/background_light"
+        android:textColorLink="@android:color/background_light"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/pico"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/numeros"
+        android:layout_marginTop="22dp"
+        android:layout_toStartOf="@+id/numeros"
+        android:background="@mipmap/btar"
+        android:onClick="calcular"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/textView62"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/background_dark"
+        android:text="Selecciona tu placa"
+        android:textAppearance="@style/TextAppearance.AppCompat.Button"
+        android:textColor="@android:color/background_light"
+        android:textSize="18sp"
+        android:textStyle="bold|italic"
+        android:layout_below="@+id/tv1"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="13dp" />
+
+    <Spinner
+        android:id="@+id/numeros"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignStart="@+id/btAcerca"
+        android:layout_alignTop="@+id/textView62"
+        android:background="@color/colorAccent"/>
+        android:popupBackground="@android:color/background_light" />
+
+    <Button
+        android:id="@+id/btAcerca"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:onClick="ver"
+        android:text="Acerca de" />
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@android:color/background_light"
+        android:text="# - #"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="50sp" />
+
+</RelativeLayout>

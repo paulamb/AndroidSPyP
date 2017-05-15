@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Peak and plate</string>
+    <string name="tvpico">Peak and plate today</string>
+    <string name="textView62">Select your plate number</string>
+    <string name="pico">Consult</string>
+    <string name="tv_resultado"></string>
+    <string name="tv_pico">Your next peak day and plate is</string>
+    <string name="tv_placa">Plate</string>
+    <string name="btFinal">Finish</string>
+    <string name="btAcerca">about</string>
+</resources>
